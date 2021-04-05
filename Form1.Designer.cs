@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.submitTaskName = new System.Windows.Forms.Button();
             this.taskNameBox = new System.Windows.Forms.TextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,6 +42,14 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(556, 426);
             this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(3, 3);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(553, 424);
+            this.checkedListBox1.TabIndex = 0;
             // 
             // submitTaskName
             // 
@@ -59,88 +67,6 @@
             this.taskNameBox.Name = "taskNameBox";
             this.taskNameBox.Size = new System.Drawing.Size(143, 20);
             this.taskNameBox.TabIndex = 2;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "gg",
-            "g",
-            "g",
-            "g",
-            "g",
-            "",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "gg",
-            "g",
-            "g",
-            "g",
-            "g",
-            "",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "gg",
-            "g",
-            "g",
-            "g",
-            "g",
-            "",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g",
-            "g"});
-            this.checkedListBox1.Location = new System.Drawing.Point(3, 3);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(553, 424);
-            this.checkedListBox1.TabIndex = 0;
             // 
             // Form1
             // 

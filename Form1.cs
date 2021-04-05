@@ -23,7 +23,8 @@ namespace APTask
         private void submitTaskName_Click(object sender, EventArgs e)
         {
             Text = taskNameBox.Text;
-            MessageBox.Show(Text);
+            Task _task = new Task(Text, new DateTime(), false);
+            checkedListBox1.Items.Add(_task.TaskName);
 
         }
     }
