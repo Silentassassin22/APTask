@@ -32,6 +32,7 @@
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.submitTaskName = new System.Windows.Forms.Button();
             this.taskNameBox = new System.Windows.Forms.TextBox();
+            this.delete1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,11 +69,22 @@
             this.taskNameBox.Size = new System.Drawing.Size(143, 20);
             this.taskNameBox.TabIndex = 2;
             // 
+            // delete1
+            // 
+            this.delete1.Location = new System.Drawing.Point(649, 67);
+            this.delete1.Name = "delete1";
+            this.delete1.Size = new System.Drawing.Size(75, 23);
+            this.delete1.TabIndex = 3;
+            this.delete1.Text = "Delete";
+            this.delete1.UseVisualStyleBackColor = true;
+            this.delete1.Click += new System.EventHandler(this.delete1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.delete1);
             this.Controls.Add(this.taskNameBox);
             this.Controls.Add(this.submitTaskName);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -90,6 +102,7 @@
         private System.Windows.Forms.Button submitTaskName;
         private System.Windows.Forms.TextBox taskNameBox;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Button delete1;
     }
 }
 

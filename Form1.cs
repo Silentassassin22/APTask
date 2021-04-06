@@ -23,9 +23,20 @@ namespace APTask
         private void submitTaskName_Click(object sender, EventArgs e)
         {
             Text = taskNameBox.Text;
-            Task _task = new Task(Text, new DateTime(), false);
-            checkedListBox1.Items.Add(_task.TaskName);
+            Task _task = new Task(Text, DateTime.Now, false);
+            checkedListBox1.Items.Add(_task.Created + ": " + _task.TaskName);
+        }
 
+        private void delete1_Click(object sender, EventArgs e)
+        {
+            var tasks = checkedListBox1.CheckedItems.Cast<object>();
+            var text = tasks.Select(x => checkedListBox1.GetItemText(x));
+            MessageBox.Show(Convert.ToString(tasks.Count()));
+            checkedListBox1.Items.Remove(checkedListBox1.CheckedItems[0]);
+            for(int i = 0; i < checkedListBox1.CheckedItems.Count; i++)
+            {
+                checkedListBox1.Items.Remove(checkedListBox1.CheckedItems[0]);
+            }
         }
     }
 }
