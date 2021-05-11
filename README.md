@@ -1,12 +1,12 @@
 # APTask
 **Coded in C#**
-- [ ] User Input
+- [x] User Input
 - [ ] List or collection type
 - [ ] Procedure 
-- [ ] Sequencing, Selection, Iteration
+- [x] Sequencing, Selection, Iteration
 - [ ] Calls Procedure
 - [ ] Outputs Tactille, Audible, Visual, or Textual
-- [ ] Main Function
-- [ ] Add Function
-- [ ] Remove Function
+- [x] Main Function
+- [x] Add Function
+- [x] Remove Function
 - [ ] Clear Function
