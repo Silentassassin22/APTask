@@ -20,22 +20,7 @@ namespace APTask
             //Add to list
         }
 
-        public string taskName
-        {
-            get { return TaskName; }
-            set { TaskName = value; }
-        }
-
-        public DateTime created
-        {
-            get { return Created; }
-            set { Created = value; }
-        }
-        public bool completed
-        {
-            get { return Completed; }
-            set { Completed = value; }
-        }
+        
 
 
     }
